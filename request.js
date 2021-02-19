@@ -20,6 +20,10 @@ function GetToken() {
     console.log(client_secret);
     xhttp.open("POST", "https://accounts.zoho.com/oauth/v2/token", true);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.setRequestHeader("Accept", "application/json");
+    xhttp.setRequestHeader('Access-Control-Allow-Origin', 'https://algorithmwiz.github.io/');
+    xhttp.setRequestHeader('Access-Control-Allow-Credentials', 'true');
+
     xhttp.send("code=" + code
         + "&client_id=" + client_id
         + "&client_secret=" + client_secret
