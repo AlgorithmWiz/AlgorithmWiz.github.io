@@ -32,7 +32,8 @@ function CallbackHandler() {
     console.log(queryString);
     var urlParams = new URLSearchParams(queryString);
     var code = urlParams.get("code");
-    document.getElementById("code").value = value;
+    console.log(code);
+    document.getElementById("code").value = code;
 }
 
 function PopUp() {
