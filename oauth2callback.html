@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Token Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="request.js"></script>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <h2 class="active"> Generate Token </h2>
+
+            <!-- Icon
+    <div class="fadeIn first">
+      <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+    </div> -->
+            <!-- Token Generator Form -->
+            <div>
+                <input type="text" id="code" class="fadeIn second" name="Code" placeholder="Code">
+                <input type="text" id="clientId" class="fadeIn third" name="ClientID" placeholder="Client ID">
+                <input type="text" id="clientSecret" class="fadeIn third" name="ClientSecret" placeholder="Client Secret">
+                <button onclick="GetToken()">Generate</button>
+            </div>
+            <div class="popup">
+                <span class="popuptext" id="myPopup"></span>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
+
