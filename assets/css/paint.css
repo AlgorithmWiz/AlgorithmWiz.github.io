@@ -1,0 +1,59 @@
+.paint-header {
+    background-image: url(/assets/img/header.svg);
+    background-size: cover;
+    padding-bottom: 7rem!important;
+}
+
+.paint-about {
+    background-image: url(/assets/img/AboutMe.svg);
+    background-size: cover;
+    background-color: transparent;
+}
+
+
+.paint-blue-section {
+    background-image: url(/assets/img/blue_paint_section.svg);
+    background-size: cover;
+    background-color: transparent;
+}
+
+.paint-white-section {
+    background-image: url(/assets/img/white_paint_section.svg);
+    background-size: cover;
+    background-color: transparent;
+}
+
+.paint-footer {
+    background-image: url(/assets/img/footer.svg);
+    background-size: cover;
+    padding-bottom: 3rem;
+    padding-top: 18rem !important;
+    background-color: transparent;
+}
+
+.paint-button {
+    transition: 0.3s;
+}
+
+.paint-button:hover {
+    background-image: url(/assets/img/button.svg);
+    background-size: contain;
+    color: #fff!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active{
+    background-image: url(/assets/img/button.svg) !important;
+    background-size: contain;
+    color: #fff !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent !important;
+}
+
+
+.masthead {
+    background-color: white !important;
+}
